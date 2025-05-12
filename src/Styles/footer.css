@@ -1,0 +1,99 @@
+.footer-container {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-logo img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #3b3b3b;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  
+  .footer-button:hover {
+    background-color: #525252;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .button-group.vertical {
+    flex-direction: column;
+  }
+  
+  .platform-bar {
+    background-color: #3b3b3b;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+    margin: 0.3rem 0;
+  }
+  
+  .crypto-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .crypto-box {
+    background-color: #4b4b4b;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+  }
+  
+  .warning-text {
+    color: #f87171;
+    font-size: 0.85rem;
+  }
+  
+  .version-text {
+    font-size: 0.75rem;
+    color: #9ca3af;
+  }
+  

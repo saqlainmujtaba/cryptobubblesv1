@@ -1,0 +1,15 @@
+.bubble-container {
+  /* position: relative; */
+  width: 97vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.bubbles{
+    width: 100%;
+    height: 90%;
+}
