@@ -1,85 +1,146 @@
 /* Main section padding (responsive simulation can be done using media queries) */
 .userSection {
-    /* padding-top: 12%; */
-    padding-left: 0;
-    color: whitesmoke;
-    background-color: #242424;
-  }
-  
-  
-  
-  /* Heading */
-  .userHeading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-top: 0.5rem; */
-    padding-bottom: 0.5rem;
-    font-weight: 600;
-  }
-  
-  /* Table scroll */
-  .userTableContainer {
-    overflow-x: scroll;
-    width: 100%;
-    align-items: center;
-    display: flex;
-  }
-  table{
-    width: 90%;
-    padding: 1rem;
-  }
-  /* Button */
-  .btn {
-    /* Define your own button styles here if needed */
-    background: none;
-    border: none;
+  /* padding-top: 12%; */
+  padding-left: 0;
+  color: whitesmoke;
+  background-color: #242424;
+}
+
+/* Heading */
+.userHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 0.5rem; */
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+th {
+  cursor: pointer;
+  padding: 1rem;
+  user-select: none;
+}
+.thContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: large;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #22c55e;
+  gap: 0.5rem;
+  width: 200px;
+  overflow: hidden;
+  /* overflow-x: scroll; */
+}
+
+/* tbody > tr>td{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+} */
+/* Table scroll */
+.userTableContainer {
+  overflow-x: scroll;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: rgb(69, 244, 177);
+}
+
+.tableContainer {
+  width: 100%;
+}
+table {
+  width: 90%;
+  padding: 1rem;
+  table-layout: auto;
+}
+
+.bg-green {
+  background-color: #22c55e; /* tailwind green-500 */
+  color: white;
+}
+
+.bg-red {
+  background-color: #ef4444; /* tailwind red-500 */
+  color: white;
+}
+
+/* Button */
+.btn {
+  /* Define your own button styles here if needed */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sorting icon */
+.sort-icon {
+  margin-right: 1rem;
+}
+
+/* Pagination layout */
+.paginationContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 1.5rem 7rem;
+}
+
+.paginationInfo,
+.paginationPageCount,
+.paginationLabel {
+  font-size: 0.875rem;
+}
+
+.paginationSelectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paginationSelect {
+  border-radius: 9999px;
+  margin: 0 1rem;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid #cbd5e1;
+}
+
+.paginationSelect:hover {
+  border-color: #94a3b8;
+}
+
+.paginationButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* .paginationArrow {
     cursor: pointer;
-  }
-  
-  /* Sorting icon */
-  .sort-icon {
-    margin-right: 1rem;
-  }
-  
-  /* Pagination layout */
-  .paginationContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.5rem 1.5rem 7rem;
-  }
-  
-  .paginationInfo,
-  .paginationPageCount,
-  .paginationLabel {
-    font-size: 0.875rem;
-  }
-  
-  .paginationSelectContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .paginationSelect {
-    border-radius: 9999px;
-    margin: 0 1rem;
-    padding: 0.25rem 0.5rem;
-    border: 2px solid #cbd5e1;
-  }
-  
-  .paginationSelect:hover {
-    border-color: #94a3b8;
-  }
-  
-  .paginationButtons {
-    display: flex;
-    gap: 0.5rem;
-  }
-  
-  .paginationArrow {
-    cursor: pointer;
-  }
-  
+  } */
+.paginationArrow {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.currentPrice{
+  background-color: #3f51b5;
+}
+
+

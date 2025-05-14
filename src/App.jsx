@@ -1,8 +1,7 @@
-import React from 'react'
 import D3Bubbles from './Components/D3Bubbles'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
-import Table from './Components/Table'
+import MarketCoins from './Components/MarketCoins'
 import CryptoCurrencies from './Components/Table2'
 
 const App = () => {
@@ -10,9 +9,9 @@ const App = () => {
     <>
       <Header/>
       <D3Bubbles/>
-      {/* <Table/> */}
       <CryptoCurrencies/>
       <Footer/>
+      {/* <MarketCoins/> */}
     </>
   )
 }
