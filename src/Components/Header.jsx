@@ -6,12 +6,12 @@ const Header = () => {
     <>
       <div className="header">
         <div className="logo">
-          <img src="/cryptobubbles.png" alt="" width={38} />
-          <h1 className="h1">Crypto Bubbles</h1>
+          <img src="/logo_with_no_bg.png" alt="" width={50} />
+          <h1 className="h1">Bubbles Martket</h1>
         </div>
         <div className="search">
           <div className="searchbox">
-            <CiSearch size={28} />
+            <CiSearch size={28} color="black" title="Search"/>
             <input
               type="search"
               placeholder="Search Cryptocurrency"

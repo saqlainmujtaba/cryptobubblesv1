@@ -10,7 +10,7 @@ const App = () => {
       <Header/>
       <D3Bubbles/>
       <CryptoCurrencies/>
-      <Footer/>
+      {/* <Footer/> */}
       {/* <MarketCoins/> */}
     </>
   )
